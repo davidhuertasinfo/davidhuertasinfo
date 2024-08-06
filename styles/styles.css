@@ -82,6 +82,16 @@ h1 {
     font-size: 18px; /* Tamaño de fuente más grande al pasar el cursor */
 }
 
+a {
+    color: #0000EE; /* Azul oscuro */
+    background-color: #FFFFFF; /* Blanco */
+}
+
+a:hover {
+    color: #FF4500; /* Naranja oscuro para el hover */
+    background-color: #FFFFE0; /* Amarillo claro para el hover */
+}
+
 section {
     background-color: #ffffff;
     padding: 30px;
