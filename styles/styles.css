@@ -1,13 +1,27 @@
 body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f8f9fa;
-    color: #495057;
+    background-color: #706e6e;
+    color: #000000;
+    transition: background-color 0.3s, color 0.3s;
+    
+}
+
+button {
+    margin: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
 }
 
 h1 {
     padding-top: 10px;
 }
 
+.navbar-nav .nav-item {
+    margin-left: 1.2rem; /* Espaciado entre elementos */
+}
+.nav-menu .nav-link {
+    font-size: 1.2rem; /* Tamaño de fuente mayor para mejor legibilidad */
+    padding: 0.5rem 1rem; /* Aumenta el espacio alrededor del texto */
+}
 
 .banner {
     display: flex;
@@ -82,18 +96,47 @@ h1 {
     font-size: 18px; /* Tamaño de fuente más grande al pasar el cursor */
 }
 
+
 a {
-    color: #0000EE; /* Azul oscuro */
-    background-color: #FFFFFF; /* Blanco */
+    color: #0c0c58; /* Azul oscuro */
+    font-size: 1.3rem;
 }
 
 a:hover {
-    color: #FF4500; /* Naranja oscuro para el hover */
-    background-color: #FFFFE0; /* Amarillo claro para el hover */
+    background-color: #a3a3a3ea;
+    transition: 0.4s;
 }
 
+ /* Estilos adicionales para la imagen del perfil */
+.perfil-img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Evitar agrandamiento excesivo de la imagen del perfil en resoluciones más pequeñas */
+@media (max-width: 768px) {
+    .perfil-img {
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+
+.carousel-caption a {
+    color: white;
+    text-decoration: none;
+}
+
+.carousel-caption a:hover {
+    color: #ddd;
+}
+
+.texto-fondo {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
 section {
-    background-color: #ffffff;
+    background-color: rgb(209, 207, 207);
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
@@ -154,12 +197,6 @@ footer {
 
 @media (min-width: 991px) {
     .navbar-toggler {
-      display: none;
+        display: none;
     }
 }
-
-.navbar-scrolled {
-    background-color: #333; /* Cambia el color de fondo al desplazarte */
-    transition: background-color 0.3s;
-}
-  

@@ -3,339 +3,329 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"> <!-- Enlace a Font Awesome -->
-    <link rel="stylesheet" href="styles/styles.css">
     <title>Perfil de David Huertas</title>
 </head>
 <body>
 
-    <header class="bg-dark text-white container">
-            <h1>Conoce a David Huertas</h1>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#perfil">Perfil</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#experiencia">Experiencia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#proyectos">Proyectos</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#contacto">Contacto</a>
-                        </li>
+<header class="text-center container">
+    <h1>Conoce a David Huertas</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler  custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <div class="collapse navbar-collapse custom-navbar" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#perfil">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+            </ul>
+        </div>        
+    </nav>
+</header>
+
+<main class="container p-0">
+
+    <section id="perfil" class="py-5">
+        <h2>Perfil</h2>
+        <div class="row">
+            <div class="col-md-3 d-flex flex-column">
+                <img src="images/perfil/perfil.png" alt="Imagen del rostro de David mirando al frente con seguridad." class="img-fluid perfil-img">
+                <div id="habilidades" class="habilidades">
+                    <h3>Habilidades</h3>
+                    <ul>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                        <li>Diseño web</li>
+                        <li>Accesibilidad</li>
+                        <li>Bases de datos</li>
+                        <li>Análisis de datos</li>
                     </ul>
                 </div>
-            </nav>
-    </header>
-
-    <main class="container">
-
-        <section id="perfil" class="py-5">
-            <h2>Perfil</h2>
-            <div class="row">
-                <div class="col-md-2 d-flex flex-column">
-                    <img src="images/perfil/perfil.png" alt="Imagen del rostro de David mirando al frente con seguridad." class="img-fluid">
-                    <div id="habilidades">
-                        <h3>Habilidades</h3>
-                        <ul>
-                            <li>Python</li>
-                            <li>JavaScript</li>
-                            <li>Diseño web</li>
-                            <li>Accesibilidad</li>
-                            <li>Bases de datos</li>
-                            <li>Análisis de datos</li>
-                        </ul>
+            </div>
+            <div class="col-md-9 presentacion">
+                <p>Soy Licenciado en Sistemas, graduado en la Universidad Nacional de La Plata (UNLP) de la ciudad de Buenos Aires, Argentina.</p>
+                <p>Nací y crecí en la ciudad de La Plata, donde he desarrollado mi pasión por la programación y la resolución de problemas tecnológicos. Desde temprana edad, me atrajo el mundo de la informática y la posibilidad de crear soluciones a través del código.</p>
+                <p>Mi enfoque principal se centra en el desarrollo de software, la accesibilidad y me apasiona especialmente el lenguaje de programación Python. Este lenguaje versátil y poderoso me ha permitido abordar variedad de proyectos, desde aplicaciones web hasta tareas de análisis de datos.</p>
+                <p>Estoy comprometido con la mejora continua y siempre estoy buscando nuevas oportunidades para aplicar mis habilidades y contribuir al mundo tecnológico. Siempre estoy abierto a nuevos desafíos y proyectos que me permitan seguir aprendiendo y aportando al desarrollo tecnológico.</p>
+                <div class="row mt-12 banner">
+                    <div class="col-md-6">
+                        <img src="images/perfil/logo-informatica.png" alt="Logo de informática" class="img-fluid">
                     </div>
-                </div>
-                <div class="col-md-10">
-                    <p>Soy Licenciado en Sistemas, graduado en la Universidad Nacional de La Plata (UNLP) de la ciudad de Buenos Aires, Argentina.</p>
-                    <p>Nací y crecí en la ciudad de La Plata, donde he desarrollado mi pasión por la programación y la resolución de problemas tecnológicos. Desde temprana edad, me atrajo el mundo de la informática y la posibilidad de crear soluciones a través del código.</p>
-                    <p>Mi enfoque principal se centra en el desarrollo de software, la accesibilidad y me apasiona especialmente el lenguaje de programación Python. Este lenguaje versátil y poderoso me ha permitido abordar variedad de proyectos, desde aplicaciones web hasta tareas de análisis de datos.</p>
-                    <p>Estoy comprometido con la mejora continua y siempre estoy buscando nuevas oportunidades para aplicar mis habilidades y contribuir al mundo tecnológico. Siempre estoy abierto a nuevos desafíos y proyectos que me permitan seguir aprendiendo y aportando al desarrollo tecnológico.</p>
-                    <div class="row mt-12 banner">
-                        <div class="col-md-6">
-                            <img src="images/perfil/logo-informatica.png" alt="Logo de informática" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <img src="images/perfil/logo-unlp.png" alt="Logo de la UNLP" class="img-fluid">
-                        </div>
+                    <div class="col-md-6">
+                        <img src="images/perfil/logo-unlp.png" alt="Logo de la UNLP" class="img-fluid">
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div id="novedades" class="row mt-12">
-                <div id="novedades-texto" class="col-md-4">
-                    <h3>Novedades</h3>
-                </div>
-                <div class="col-md-8 mt-1">
-                    <div id="novedades-miniatura" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/novedades/accedocxMockup.jpg" class="d-block w-100" alt="David exponiendo en la hackaton 2023">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <div class="texto-fondo d-flex align-items-center justify-content-center">
-                                        <a href="https://www.linkedin.com/posts/david-leonardo-huertas-godoy_accesibilidad-accesibilidadweb-tecnologaedainclusiva-activity-7134871482916122624-jhWV?utm_source=share&utm_medium=member_desktop" target="_blank">
-                                            Herramientas Inclusivas
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                                    <img src="images/novedades/hackaton2023.PNG" class="d-block w-100" alt="David exponiendo en la hackaton 2023">
-                                <div class="carousel-caption d-none d-md-block">
-                                    <div class="texto-fondo d-flex align-items-center justify-content-center">
-                                        <a href="https://www.linkedin.com/posts/david-leonardo-huertas-godoy_cilsaong-unlp-hackaton2023-activity-7123833329174405120-YCNN?utm_source=share&utm_medium=member_desktop" target="_blank">
-                                            Hackaton 2023 en la UNLP
-                                        </a>
-                                    </div>
+        <div id="novedades" class="row mt-12">
+            <div id="novedades-texto" class="col-md-4">
+                <h3>Novedades</h3>
+            </div>
+            <div class="col-md-8 mt-1">
+                <div id="novedades-miniatura" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/novedades/accedocxMockup.jpg" class="d-block w-100" alt="David exponiendo en la hackaton 2023">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="texto-fondo d-flex align-items-center justify-content-center">
+                                    <a href="https://www.linkedin.com/posts/david-leonardo-huertas-godoy_accesibilidad-accesibilidadweb-tecnologaedainclusiva-activity-7134871482916122624-jhWV?utm_source=share&utm_medium=member_desktop" target="_blank">
+                                        Herramientas Inclusivas
+                                    </a>
                                 </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#novedades-miniatura" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#novedades-miniatura" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="experiencia" class="py-5">
-            <h2>Experiencias</h2>
-            
-            <!-- Primera sección-->
-            <div class="row mt-4">
-                <div class="col-md-5">
-                    <div id="carouselExperiencia1" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/experiencias/01/cilsa-experiencia.png" class="d-block w-100" alt="David junto con sus compañeros de trabajo en CILSA La Plata">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/experiencias/01/virtual_01.jfif" class="d-block w-100" alt="Captura de pantalla de una reunión virtual del curso de JavaScript">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/experiencias/01/virtual_02.jfif" class="d-block w-100" alt="Captura de pantalla de una reunión virtual del curso de Python">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/experiencias/01/virtual_03.jfif" class="d-block w-100" alt="Captura de pantalla de una reunión virtual del curso de Python">
+                        <div class="carousel-item">
+                            <img src="images/novedades/hackaton2023.PNG" class="d-block w-100" alt="David exponiendo en la hackaton 2023">
+                            <div class="carousel-caption d-none d-md-block">
+                                <div class="texto-fondo d-flex align-items-center justify-content-center">
+                                    <a href="https://www.linkedin.com/posts/david-leonardo-huertas-godoy_cilsaong-unlp-hackaton2023-activity-7123833329174405120-YCNN?utm_source=share&utm_medium=member_desktop" target="_blank">
+                                        Hackaton 2023 en la UNLP
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExperiencia1" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExperiencia1" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
                     </div>
-                </div>
-                <div class="col-md-7">
-                    <h3>CILSA ONG</h3>
-                    <p>En mi rol actual en CILSA ONG, lidero proyectos de capacitación, realizo entrevistas y evaluaciones de cursos, implemento mejoras continuas y resuelvo problemas.</p>
-                    <p>Mi labor incluye el monitoreo y relevamiento de datos, aplicando un enfoque analítico para evaluar el impacto de las actividades que se desarrollan. </p>
-                    <p>Tengo la responsabilidad de liderar capacitaciones en lenguajes de programación, tales como Python y JavaScript, ofreciendo a los participantes habilidades fundamentales en programación.</p>
-                    <p>Reconociendo la importancia de la inclusión, también aplico mis conocimientos en accesibilidad web, asegurando que las iniciativas tecnológicas de la Organización sean accesibles para todas las personas. </p>
+                    <a class="carousel-control-prev" href="#novedades-miniatura" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#novedades-miniatura" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
                 </div>
             </div>
+        </div>
+    </section>
 
-            <!-- Siguiente sección -->
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div id="carouselExperiencia2" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/experiencias/02/sicos-experiencia.png" class="d-block w-100" alt="Imagen del logo de SICOS con un fondo oscuro donde se observa código de programación.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/experiencias/02/sicos-cursos.png" class="d-block w-100" alt="Imagen de publicaciones de cursos a nivel nacional relacionados con UNION infomática y el Ministerio de Trabajo.">
-                            </div>
+    <section id="experiencia" class="py-5">
+        <h2>Experiencias</h2>
+        
+        <!-- Primera sección-->
+        <div class="row mt-4">
+            <div class="col-md-5">
+                <div id="carouselExperiencia1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/experiencias/01/cilsa-experiencia.png" class="d-block w-100" alt="David junto con sus compañeros de trabajo en CILSA La Plata">
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExperiencia2" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExperiencia2" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
+                        <div class="carousel-item">
+                            <img src="images/experiencias/01/virtual_01.jpg" class="d-block w-100" alt="Captura de pantalla de una reunión virtual del curso de JavaScript">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/experiencias/01/virtual_02.jpg" class="d-block w-100" alt="Captura de pantalla de una reunión virtual del curso de Python">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/experiencias/01/virtual_03.jpg" class="d-block w-100" alt="Captura de pantalla de una reunión virtual del curso de Python">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <h3>SICOS Informática</h3>
-                    <p>En mi experiencia profesional en SICOS Informática, he desempeñado un rol integral en la planificación y gestión de proyectos de capacitación centrado, especialmente sobre programación en Python.</p>
-                    <p>He diseñado y dictado programas de formación en Python y SQL Server, para capacitaciones donde colaboraron <strong>Unión Informática</strong> y el <strong>Ministerio de Trabajo, Empleo y Seguridad Social (MTEySS)</strong>.</p>
-                    <p>Además, mi labor se ha desarrollado especialmente en el ámbito virtual, haciendo que esta modalidad alcanzace a un público más amplio y facilite el acceso a la capacitación.</p>
+                    <a class="carousel-control-prev" href="#carouselExperiencia1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExperiencia1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
                 </div>
             </div>
+            <div class="col-md-7 text-dark">
+                <h3>CILSA ONG por la inclusión</h3>
+                <p>En mi rol actual en CILSA ONG, lidero la planificación y formulación de proyectos de capacitación, impulsando la importancia de la capacitación en el mundo IT.</p>
+                <p>Mi labor incluye el monitoreo y relevamiento de datos, aplicando un enfoque analítico para evaluar el impacto de las actividades que se desarrollan. </p>
+                <p>Además, tengo la responsabilidad de liderar capacitaciones en lenguajes de programación, tales como Python y JavaScript, ofreciendo a los participantes habilidades fundamentales en programación.</p>
+                <p>Reconociendo la importancia de la inclusión, también aplico mis conocimientos en accesibilidad web, asegurando que las iniciativas tecnológicas de la Organización sean accesibles para todos. </p>
+            </div>
+        </div>
 
-            <!-- Siguiente sección-->
-            <div class="row mt-4">
-                <div class="col-md-6">
-                    <div id="carouselExperiencia3" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/experiencias/03/linti.jpg" class="d-block w-100" alt="Imagen de la entrada de la oficina de LINTI.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/experiencias/03/tabi-resumen1.png" class="d-block w-100" alt="Imagen de varios conceptos relacionados con BI, con el titulo principal Tecnologias Aplicadas paraa Business Intelligence.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/experiencias/03/tabi-resumen2.png" class="d-block w-100" alt="Imagen de varios elementos relacionados con el proceso de ETL, con el titulo principal Extracción, Transformación y Carga.">
-                            </div>
+        <!-- Segunda sección-->
+        <div class="row mt-4">
+            <div class="col-md-5">
+                <div id="carouselExperiencia2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/experiencias/02/sicos-experiencia.png" class="d-block w-100" alt="David dictando una clase presencial">
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExperiencia3" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExperiencia3" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
+                        <div class="carousel-item">
+                            <img src="images/experiencias/02/sicos-cursos.png" class="d-block w-100" alt="David junto con sus compañeros de trabajo en CILSA La Plata">
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-6">
-                    <h3>Ayudante en T.A.B.I</h3>
-                    <p>Me encuentro como Ayudante graduado de la materia "Tecnologias Aplicadas para Business Intelligence (TABI)" de la cátedra LINTI para las carreras de Lic. en Informática y Lic. en Sistemas.</p>
-                    <p>Esta materia es optativa y se dicta en la Facultad de Informática de la UNLP en el último año de las carreras de licenciaturas.</p>
-                    <p>Los conceptos relacionados con esta materia son: Procesamiento de datos, Proceso ETL, Almacenamiento de datos, OLTP vs OLAP, DataWarehouse, Visualización de datos y Analítica de datos.</p>
-                    <p>Herramientas que se utilizan: Pentaho PDI, LookerStudio y Docker.</p>
+                    <a class="carousel-control-prev" href="#carouselExperiencia2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExperiencia2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
                 </div>
             </div>
-        </section>
+            <div class="col-md-7">
+                <h3>SICOS Informática</h3>
+                <p>En mi experiencia profesional en SICOS Informática, he desempeñado un rol integral en la planificación y gestión de proyectos de capacitación centrado, especialmente sobre programación en Python.</p>
+                <p>He diseñado y dictado programas de formación en Python y SQL Server, para capacitaciones donde colaboraron <strong>Unión Informática</strong> y el <strong>Ministerio de Trabajo, Empleo y Seguridad Social (MTEySS)</strong>.</p>
+                <p>Además, mi labor se ha desarrollado especialmente en el ámbito virtual, haciendo que esta modalidad alcanzace a un público más amplio y facilite el acceso a la capacitación.</p>
+            </div>
+        </div>
 
-        <section id="proyectos" class="py-5">
-            <h2>Proyectos</h2>
-            
-            <!-- Primer logro-->
-            <div class="row mt-4">
-                <div class="col-md-7">
-                    <div id="carouselLogro1" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/proyectos/01/mockup.png" class="d-block w-100" alt="Imagen de una computadora dentro de la página principal de AcceDOCX">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/proyectos/01/desarrollo.png" class="d-block w-100" alt="Imagen de la arquitectura de la herramienta y la estructura interna de un documento de formato DOCX.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/proyectos/01/juan.png" class="d-block w-100" alt="Imagen de un profesor utilizando la herramienta.">
-                            </div>
+        <!-- Tercera sección-->
+        <div class="row mt-4">
+            <div class="col-md-5">
+                <div id="carouselExperiencia3" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/experiencias/03/linti.jpg" class="d-block w-100" alt="David presentando un proyecto en la Universidad Nacional de La Plata">
                         </div>
-                        <a class="carousel-control-prev" href="#carouselLogro1" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselLogro1" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
+                        <div class="carousel-item">
+                            <img src="images/experiencias/03/tabi-resumen1.png" class="d-block w-100" alt="David dictando un taller sobre accesibilidad web">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/experiencias/03/tabi-resumen2.png" class="d-block w-100" alt="David participando en un evento de tecnología">
+                        </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExperiencia3" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExperiencia3" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
                 </div>
-                <div class="col-md-5">
-                    <h3>AcceDOCX (2022)</h3>
-                    <p>Es una herramienta que permite accesibilizar un documento de lectura a través de la automatización.</p>
-                    <p>A partir de explorar el tema de la accesibilidad, he tenido la oportunidad de desarrollar este prototipo de herramienta web.
-                        Surgió como una iniciativa destinada a abordar los desafíos actuales relacionados con la accesibilidad
-                        en documentos de lectura dentro del ámbito educativo.</p>
-                    <p>Promover la concientización sobre la accesibilidad no solo impulsa avances significativos en la creación de herramientas 
-                        y entornos inclusivos, sino que también refuerza la importancia fundamental de asegurar la igualdad de acceso a 
-                        la información para todas las personas.
-                        <a href="https://www.linkedin.com/posts/david-leonardo-huertas-godoy_accesibilidad-accesibilidadweb-tecnologaedainclusiva-activity-7134871482916122624-jhWV?utm_source=share&utm_medium=member_desktop" target="_blank">
+            </div>
+            <div class="col-md-7">
+                <h3>Ayudante en T.A.B.I</h3>
+                <p>Me encuentro como Ayudante graduado de la materia "Tecnologias Aplicadas para Business Intelligence (TABI)" de la cátedra LINTI para las carreras de Lic. en Informática y Lic. en Sistemas.</p>
+                <p>Esta materia es optativa y se dicta en la Facultad de Informática de la UNLP en el último año de las carreras de licenciaturas.</p>
+                <p>Los conceptos relacionados con esta materia son: Procesamiento de datos, Proceso ETL, Almacenamiento de datos, OLTP vs OLAP, DataWarehouse, Visualización de datos y Analítica de datos.</p>
+                <p>Herramientas que se utilizan: Pentaho PDI, LookerStudio y Docker.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="proyectos" class="py-5">
+        <h2>Proyectos</h2>
+        
+        <!-- Primer Proyecto -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div id="carouselProyecto1" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/proyectos/01/mockup.png" class="d-block w-100" alt="Captura de pantalla de un proyecto de accesibilidad web">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/proyectos/01/desarrollo.png" class="d-block w-100" alt="Captura de pantalla de un proyecto de accesibilidad web con mejoras de contraste">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/proyectos/01/juan.png" class="d-block w-100" alt="Imagen de un profesor utilizando la herramienta.">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselProyecto1" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselProyecto1" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>AcceDOCX (2022)</h3>
+                <p>Es una herramienta que permite accesibilizar un documento de lectura a través de la automatización.</p>
+                <p>A partir de explorar el tema de la accesibilidad, he tenido la oportunidad de desarrollar este prototipo de herramienta web.
+                    Surgió como una iniciativa destinada a abordar los desafíos actuales relacionados con la accesibilidad
+                    en documentos de lectura dentro del ámbito educativo.</p>
+                <p>Promover la concientización sobre la accesibilidad no solo impulsa avances significativos en la creación de herramientas 
+                    y entornos inclusivos, sino que también refuerza la importancia fundamental de asegurar la igualdad de acceso a 
+                    la información para todas las personas. <a href="https://www.linkedin.com/posts/david-leonardo-huertas-godoy_accesibilidad-accesibilidadweb-tecnologaedainclusiva-activity-7134871482916122624-jhWV?utm_source=share&utm_medium=member_desktop" target="_blank">
                         Ver Proyecto.
                         </a></p>
-                </div>
             </div>
-
-            <!-- Siguiente logro -->
-            <div class="row mt-4">
-                <div class="col-md-7">
-                    <div id="carouselLogro2" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/proyectos/02/titulo.PNG" class="d-block w-100" alt="Imagen del texto Oportunidad comercial en CABA.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/proyectos/02/desarrollo.png" class="d-block w-100" alt="Imagen de datos en archivos excel y de procesos de ETL sobre una herramienta de BI.">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="images/proyectos/02/mapa.PNG" class="d-block w-100" alt="Imagen de un mapa de calor sobre CABA donde se diferencian las distintas comunas y su grado de riesgo de apertura.">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselLogro2" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Anterior</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselLogro2" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Siguiente</span>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-5">
-                    <h3>Oportunidades comerciales (2019)</h3>
-                    <p>Visualizar mediante un mapa datos relacionados con la actividad comercial durante el periodo 2016-2018 que 
-                        permita tomar decisiones sobre iniciar un negocio en alguna zona/barrio de CABA.</p>
-                    <p>Se obtuvo los datos relacionados con la actividad comercial: movimiento comercial por zona en cuanto a los cierres y aperturas, por período (entre el 2016 y el 2018).</p>
-                    <p>Finalmente, permite observar tendencias sobre riesgos en zonas, dependiendo de las aperturas, cierres, rubros y período.</p>
-                </div>
-            </div>
-        </section>
-
-        <section id="contacto" class="py-5">
-            <h2>Contacto</h2>
-            <img src="images/perfil/contacto.PNG" alt="Imagen del rostro de David mirando al frente con seguridad, resaltanto el texto Licenciado en Sistemas." class="img-fluid">
-
-            <div class="row justify-content-center">
-                <div id="contacto-listado" class="col-md-6 d-flex align-items-left">
-                    <ul>
-                        <li>
-                            <i class="fas fa-envelope"></i> Email profesional: <a href="mailto:dydinformatica.laplata@gmail.com">dydinformatica.laplata@gmail.com</a>
-                        </li>
-                        <li>
-                            <i class="fab fa-github"></i> GitHub: <a href="https://github.com/dhuertas90" target="_blank">dhuertas90</a>
-                        </li>
-                        <li>
-                            <i class="fab fa-linkedin"></i> LinkedIn: <a href="https://www.linkedin.com/in/david-leonardo-huertas-godoy/" target="_blank">David Huertas</a>
-                        </li>
-                        <li>
-                            <i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://wa.me/2216540569">2216540569</a>
-                        </li>
-                    </ul>
-                </div>
-                <div id="contacto-parrafo" class="col-md-6">
-                    <p>¿Quieres saber sobre <strong>programación</strong>? 
-                        ¿Quieres aprender <strong>Python</strong>? 
-                        ¿Necesitas ayuda antes de ingresar a la <strong>Facultad de Informática</strong>? 
-                        ¿Quieres saber sobre <strong>análisis de datos</strong>?</p>
-                    <p><strong>¡Contáctame!</strong></p>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="bg-dark text-white py-3">
-        <div class="container">
-            <p>&copy; 2023 David Huertas. Todos los derechos reservados.</p>
         </div>
-    </footer>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <!-- Segundo Proyecto -->
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <div id="carouselProyecto2" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="images/proyectos/02/titulo.PNG" class="d-block w-100" alt="Captura de pantalla de un panel de análisis de datos">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/proyectos/02/desarrollo.png" class="d-block w-100" alt="Captura de pantalla de un panel de análisis de datos con gráficos interactivos">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="images/proyectos/02/mapa.PNG" class="d-block w-100" alt="Mapa de calor sobre CABA donde se diferencian las distintas comunas y su grado de riesgo de apertura.">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselProyecto2" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Anterior</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselProyecto2" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Siguiente</span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h3>Oportunidades comerciales (2019)</h3>
+                <p>Visualizar mediante un mapa datos relacionados con la actividad comercial durante el periodo 2016-2018 que 
+                    permita tomar decisiones sobre iniciar un negocio en alguna zona/barrio de CABA.</p>
+                <p>Se obtuvo los datos relacionados con la actividad comercial: movimiento comercial por zona en cuanto a los cierres y aperturas, por período (entre el 2016 y el 2018).</p>
+                <p>Finalmente, permite observar tendencias sobre riesgos en zonas, dependiendo de las aperturas, cierres, rubros y período.</p>
+            </div>
+        </div>
+    </section>
 
+    <section id="contacto" class="py-5">
+        <h2>Contacto</h2>
+        <div class="mt-4">
+            <p>Puedes contactarme a través de los siguientes medios:</p>
+            <ul class="list-unstyled">
+                <li><i class="fas fa-envelope"></i> correo@example.com</li>
+                <li><i class="fas fa-phone"></i> +54 9 11 1234 5678</li>
+                <li><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/david/" target="_blank">LinkedIn</a></li>
+                <li><i class="fab fa-github"></i> <a href="https://github.com/david/" target="_blank">GitHub</a></li>
+            </ul>
+        </div>
+    </section>
+</div>
+
+<!-- Pie de página -->
+<footer class="py-4 text-center">
+    <div class="container">
+        <p>&copy; 2024 David. Todos los derechos reservados.</p>
+        <ul class="list-inline">
+            <li class="list-inline-item"><a href="https://www.linkedin.com/in/david/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li class="list-inline-item"><a href="https://github.com/david/" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+    </div>
+</footer>
+
+<!-- Scripts y Font Awesome -->
+
+<script src="js/accesibilidad.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </body>
 </html>
